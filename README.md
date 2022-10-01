@@ -5,7 +5,7 @@
 1. **不要**用 **root** 用户进行编译！！！
   `非必要 请输入 `export FORCE_UNSAFE_CONFIGURE=1` && export `FORCE=1` `
 2. 国内用户编译前最好准备好梯子
-3. 默认登陆IP 10.10.10.1 密码 boos
+3. 默认登陆IP 192.168.2.1 密码 admin
 
 
 编译命令如下:
@@ -22,7 +22,7 @@
    sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc-s1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
    ```
 
-2. 使用 ```git clone https://github.com/Boos4721/openwrt``` 命令下载好源代码，然后 `cd openwrt` 进入目录
+2. 使用 ```git clone https://github.com/B5CSGO/R5S``` 命令下载好源代码，然后 `cd openwrt` 进入目录
 
 3. ```bash
    ./scripts/feeds update -a
